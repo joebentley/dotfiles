@@ -1,4 +1,4 @@
-set shell=/bin/bash
+"set shell=/bin/bash
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -27,15 +27,12 @@ set shiftwidth=4
 
 set clipboard=unnamed
 
-filetype off
+set shell=/bin/bash
+call plug#begin('~/.vim/plugged')
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'rust-lang/rust.vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'rust-lang/rust.vim'
-
-call vundle#end()
-filetype plugin indent on
-
+call plug#end()
+set shell=/usr/local/bin/fish
