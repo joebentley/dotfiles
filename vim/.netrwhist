@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jbentley/repos-phd/MAGIC/Code/magic/tools'
+let g:netrw_dirhist_2='/Users/jbentley/anaconda3/lib/python3.6/site-packages/MAGIC-0.0.1-py3.6.egg/magic'
+let g:netrw_dirhist_3='/Users/jbentley/anaconda3/lib/python3.6/site-packages/MAGIC-0.0.1-py3.6.egg/magic/tools'
+let g:netrw_dirhist_4='/Users/jbentley/anaconda3/lib/python3.6/site-packages/MAGIC-0.0.1-py3.6.egg/magic'
